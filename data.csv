@@ -1,0 +1,170 @@
+﻿Deaths annual % change;Percent of total deaths;Cause of death or injury
+-0.032548776;0.021157376;Tuberculosis
+-0.021149644;0.045733648;Lower respiratory infections
+-0.072411543;0.000162867;Upper respiratory infections
+-0.056684523;1.694403859e-05;Otitis media
+-0.019358474;0.028053310;Diarrheal diseases
+-0.032146392;0.002429596;Typhoid and paratyphoid
+-0.066309070;2.587234796e-05;Other intestinal infectious diseases
+-0.045662897;0.017061125;HIV/AIDS
+-0.030372487;0.002128562;Sexually transmitted infections excluding HIV
+-0.045183258;0.011078340;Malaria
+-0.014737055;0.000140372;Chagas disease
+-0.106656618;0.000134563;Leishmaniasis
+-0.181241213;2.439333731e-05;African trypanosomiasis
+-0.030637965;0.000157950;Schistosomiasis
+-0.036320894;1.339082388e-05;Cysticercosis
+-0.051199381;2.138606245e-05;Cystic echinococcosis
+0.036266847;0.000723339;Dengue
+-0.038747964;8.554714704e-05;Yellow fever
+-0.081999370;0.000208385;Rabies
+-0.068560738;5.730082699e-05;Intestinal nematode infections
+0;1.431924102e-07;Ebola
+0;3.467865475e-07;Zika virus
+-0.006857005;0.000224517;Other neglected tropical diseases
+-0.037392192;0.005148122;Meningitis
+-0.022998829;0.001651060;Encephalitis
+-0.135042873;6.477768907e-05;Diphtheria
+-0.044732983;0.001640801;Whooping cough
+-0.112125959;0.000681614;Tetanus
+-0.135057925;0.001703471;Measles
+-0.031183622;0.000278669;Varicella and herpes zoster
+-0.026626950;0.002259180;Acute hepatitis
+-0.012119896;0.001416918;Other unspecified infectious diseases
+-0.031809767;0.003461065;Maternal disorders
+-0.033578981;0.031883669;Neonatal disorders
+-0.034519061;0.004142785;Protein-energy malnutrition
+-0.013273952;0.000683278;Other nutritional deficiencies
+-0.017482948;0.005103490;Rheumatic heart disease
+0.003884185;0.159626659;Ischemic heart disease
+-0.006986486;0.110237083;Stroke
+0.024205067;0.016546050;Hypertensive heart disease
+0.022130854;0.002589317;Non-rheumatic valvular heart disease
+-0.010274713;0.006587431;Cardiomyopathy and myocarditis
+0.025084056;0.005134375;Atrial fibrillation and flutter
+-0.000114974;0.002989507;Aortic aneurysm
+0.013131089;0.001490573;Endocarditis
+0.003404575;0.006446419;Other cardiovascular and circulatory diseases
+0.018969038;0.006426706;Neoplasms
+0.017430735;0.003462202;Lip and oral cavity cancer
+0.003331598;0.001243158;Nasopharynx cancer
+0.022517283;0.002098673;Other pharynx cancer
+-0.016713527;0.007792472;Esophageal cancer
+-0.014427292;0.015461214;Stomach cancer
+0.009331637;0.016016364;Colon and rectum cancer
+-0.000299092;0.014646817;Liver cancer
+0.008886173;0.003109719;Gallbladder and biliary tract cancer
+0.021849975;0.007884183;Pancreatic cancer
+0.001771476;0.002260599;Larynx cancer
+0.009495951;0.033658852;Tracheal. bronchus. and lung cancer
+0.009297249;0.001102255;Malignant skin melanoma
+0.021832816;0.001163586;Non-melanoma skin cancer
+0.006460104;0.010932407;Breast cancer
+-0.003746792;0.004641428;Cervical cancer
+0.003840080;0.001523601;Uterine cancer
+0.007759061;0.003145590;Ovarian cancer
+0.011418227;0.007434264;Prostate cancer
+-0.003345396;0.000136950;Testicular cancer
+0.013492050;0.002476116;Kidney cancer
+0.007628679;0.003513200;Bladder cancer
+0.007731680;0.004417517;Brain and nervous system cancer
+0.016030006;0.000737055;Thyroid cancer
+0.016915739;0.000534608;Mesothelioma
+-0.015509434;0.000581974;Hodgkin lymphoma
+0.011960165;0.004444250;Non-Hodgkin lymphoma
+0.012526407;0.001914622;Multiple myeloma
+-0.001804190;0.006212930;Leukemia
+0.018390325;0.001839678;Other neoplasms
+-0.006544630;0.057159165;Chronic obstructive pulmonary disease
+-0.015786505;0.000385221;Pneumoconiosis
+-0.016235636;0.008849055;Asthma
+0.032368454;0.002639021;Interstitial lung disease and pulmonary sarcoidosis
+0.009141886;0.000932080;Other chronic respiratory diseases
+-0.001088756;0.023645461;Cirrhosis and other chronic liver diseases
+-0.021066596;0.005221383;Upper digestive system diseases
+-0.010037634;0.000785480;Appendicitis
+0.005153418;0.004298632;Paralytic ileus and intestinal obstruction
+0.004618889;0.000789295;Inguinal. femoral. and abdominal hernia
+0.003256740;0.000690470;Inflammatory bowel disease
+0.007111251;0.001716876;Vascular intestinal disorders
+0.007118269;0.001975796;Gallbladder and biliary diseases
+0.005030375;0.001816380;Pancreatitis
+0.004604541;0.001560060;Other digestive diseases
+0.024707331;0.044947927;Alzheimer's disease and other dementias
+0.021429899;0.006088770;Parkinson's disease
+-0.012179813;0.002327879;Epilepsy
+0.003018483;0.000369203;Multiple sclerosis
+0.017184043;0.000608960;Motor neuron disease
+0.008422505;0.000964270;Other neurological disorders
+0.005354904;5.835628320e-06;Eating disorders
+-0.030986910;0.003305613;Alcohol use disorders
+0.010682146;0.002978130;Drug use disorders
+0.009020930;0.024485445;Diabetes mellitus
+0.017414779;0.021988669;Chronic kidney disease
+-0.009642420;0.000199880;Acute glomerulonephritis
+0;0;Viral skin diseases
+0.015782883;0.001358617;Bacterial skin diseases
+0.006573373;0.000363475;Decubitus ulcer
+0.010922179;7.043379768e-05;Other skin and subcutaneous diseases
+0.006703645;0.000845003;Rheumatoid arthritis
+0.012956326;0.001322623;Other musculoskeletal disorders
+0.016999724;0.004847418;Urinary diseases and male infertility
+0.000903122;0.000145831;Gynecological diseases
+0.014034337;0.002583442;Endocrine. metabolic. blood. and immune disorders
+-0.031187378;0.000714247;Sudden infant death syndrome
+-0.010375795;0.022219143;Road injuries
+-0.009912403;0.001643303;Other transport injuries
+0.008766794;0.012436616;Falls
+-0.035210560;0.005276737;Drowning
+-0.025456084;0.002156220;Fire. heat. and hot substances
+-0.022476461;0.001293577;Poisonings
+-0.018845633;0.002439780;Exposure to mechanical forces
+-0.000545556;0.002173023;Adverse effects of medical treatment
+-0.015247583;0.001449132;Animal contact
+-0.018306921;0.002218385;Foreign body
+0.088792252;0.000953613;Environmental heat and cold exposure
+0.197107156;0.000171651;Exposure to forces of nature
+-0.015994059;0.001692386;Other unintentional injuries
+-0.015167672;0.014189188;Self-harm
+-0.017668332;0.007245421;Interpersonal violence
+0.032575746;0.002318740;Conflict and terrorism
+-0.023241329;0.000285264;Executions and police conflict
+0;0;Dermatitis
+0;0;Osteoarthritis
+0;0;Attention-deficit/hyperactivity disorder
+0;0;Other mental disorders
+-0.009907632;0.001869120;Hemoglobinopathies and hemolytic anemias
+0;0;Acne vulgaris
+0;0;Neck pain
+0;0;Vitamin A deficiency
+0;0;Oral disorders
+0;0;Iodine deficiency
+0;0;Urticaria
+0;0;Food-borne trematodiases
+0;0;Pruritus
+0;0;Dietary iron deficiency
+0;0;Conduct disorder
+0;0;Lymphatic filariasis
+0;0;Gout
+-0.033155552;0.001055769;Invasive Non-typhoidal Salmonella (iNTS)
+0;0;Idiopathic developmental intellectual disability
+0;0;Depressive disorders
+0;0;Headache disorders
+0;0;Onchocerciasis
+0;0;Schizophrenia
+0;0;Age-related and other hearing loss
+-0.025542925;0.010454063;Congenital birth defects
+0;0;Bipolar disorder
+0;0;Anxiety disorders
+0;0;Autism spectrum disorders
+0;0;Alopecia areata
+0;0;Low back pain
+0;0;Other sense organ diseases
+0.032939982;0.001254251;Peripheral artery disease
+0;0;Scabies
+0;0;Blindness and vision impairment
+0;0;Psoriasis
+0;0;Trachoma
+0;0;Guinea worm disease
+0;0;Leprosy
+0;0;Fungal skin diseases
