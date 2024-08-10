@@ -3,10 +3,111 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Visualization</title>
-    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <title>Donut Chart with Bar Chart in D3.js</title>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <style>
+        .bar {
+            fill: steelblue;
+        }
+
+        .bar.positive {
+            fill: green;
+        }
+
+        .bar.negative {
+            fill: red;
+        }
+
+        .label {
+            font-size: 14px;
+            fill: white;
+            text-anchor: middle;
+        }
+    </style>
 </head>
 <body>
-    <script src="script.js"></script>
+    <div id="chart"></div>
+    <script>
+        const data = [
+            { cause: "Ischemic heart disease", deaths: 16, change: 0 },
+            { cause: "Stroke", deaths: 11, change: -1 },
+            { cause: "Lower respiratory infections", deaths: 5, change: -2 },
+            { cause: "Neonatal disorders", deaths: 3, change: -3 },
+            { cause: "Diarrheal diseases", deaths: 3, change: -2 },
+            { cause: "Alzheimer's disease and other dementias", deaths: 4, change: 2 },
+            { cause: "Tuberculosis", deaths: 2, change: -3 },
+            { cause: "HIV/AIDS", deaths: 2, change: -5 },
+            { cause: "Diabetes mellitus", deaths: 2, change: 1 },
+            { cause: "Chronic kidney disease", deaths: 2, change: 2 },
+            { cause: "Cirrhosis and other chronic liver diseases", deaths: 2, change: 0 },
+            { cause: "Colon and rectum cancer", deaths: 2, change: 1 },
+            { cause: "Stomach cancer", deaths: 2, change: -1 },
+            { cause: "Hypertensive heart disease", deaths: 2, change: 2 },
+            { cause: "Others", deaths: 41, change: 0 }
+        ];
+
+        const width = 800, height = 500;
+        const radius = Math.min(width, height) / 2 - 100;
+
+        const color = d3.scaleOrdinal()
+            .domain(data.map(d => d.cause))
+            .range(d3.schemeCategory10);
+
+        const arc = d3.arc()
+            .innerRadius(radius - 100)
+            .outerRadius(radius);
+
+        const pie = d3.pie()
+            .value(d => d.deaths)
+            .sort(null);
+
+        const svg = d3.select("#chart").append("svg")
+            .attr("width", width)
+            .attr("height", height)
+            .append("g")
+            .attr("transform", `translate(${width / 2},${height / 2})`);
+
+        svg.selectAll('path')
+            .data(pie(data))
+            .enter()
+            .append('path')
+            .attr('d', arc)
+            .attr('fill', d => color(d.data.cause))
+            .attr("stroke", "white")
+            .attr("stroke-width", 2);
+
+        // Add bar chart for percentage change
+        const x = d3.scaleBand()
+            .domain(data.map(d => d.cause))
+            .range([0, width])
+            .padding(0.1);
+
+        const y = d3.scaleLinear()
+            .domain([d3.min(data, d => d.change), d3.max(data, d => d.change)])
+            .range([height, 0]);
+
+        const barSvg = svg.append("g")
+            .attr("transform", `translate(-${width / 2},${height / 2 + 20})`);
+
+        barSvg.selectAll(".bar")
+            .data(data)
+            .enter()
+            .append("rect")
+            .attr("class", d => `bar ${d.change >= 0 ? "positive" : "negative"}`)
+            .attr("x", d => x(d.cause))
+            .attr("y", d => y(Math.max(0, d.change)))
+            .attr("width", x.bandwidth())
+            .attr("height", d => Math.abs(y(d.change) - y(0)));
+
+        // Add labels to the bars
+        barSvg.selectAll(".label")
+            .data(data)
+            .enter()
+            .append("text")
+            .attr("class", "label")
+            .attr("x", d => x(d.cause) + x.bandwidth() / 2)
+            .attr("y", d => y(d.change) + (d.change < 0 ? -10 : 15))
+            .text(d => `${d.change}%`);
+    </script>
 </body>
 </html>
